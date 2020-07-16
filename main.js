@@ -31,6 +31,7 @@
     setTimeout(() => {
         sectionOneOpacity.style.opacity = 1;
         sectionOneOpacity.style.transition = '.6s';
+
     }, 1000)
 
 
