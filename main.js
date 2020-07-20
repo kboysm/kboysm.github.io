@@ -20,7 +20,7 @@
 
     let scene = new ScrollMagic.Scene({
         triggerElement: "#pinContainer",
-        triggerHook: "onLeave",
+        triggerHook: 0,
         duration: "200%" //이 값이 클 수록 천천히 덮어씀
     }).setTween(".one", 1, { opacity: 0 }) // trigger a TweenMax.to tween
         .setPin("#pinContainer")
