@@ -105,6 +105,7 @@ html, body {
 }
 
 .one {
+    height: 100%;
     background-color: #fe4365;
     z-index:9999;
     position: relative;
@@ -115,18 +116,21 @@ html, body {
 }
 
 .two {
+    height: 100%;
     background-color: #fc9d9a;
 
     height: 100vh;
 }
 
 .three {
+    height: 100%;
     background-color: #f9cdad;
 
     height: 100vh;
 }
 
 .four {
+    height: 100%;
     background-color: #c8c8a9;
     display: grid;
   place-items: center;
