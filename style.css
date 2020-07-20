@@ -16,6 +16,7 @@ html, body {
  
     width: 100vw;
     height: 100vh;
+    min-height: calc(100%);
     overflow: hidden;
     -webkit-perspective: 1000;
     perspective: 1000;
@@ -92,12 +93,13 @@ html, body {
     position:fixed;
     width: 400vw;
     height: 100vh;
+    min-height: calc(100%);
 }
 
 .panel {
     
     float: left;
-    width: 25vw; 
+    width: 25%; 
     height: 100vh;
     font-size: 60px;
     text-align: center;
